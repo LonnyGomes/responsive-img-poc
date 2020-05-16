@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dist": "parcel build --out-dir docs index.html"
+    "dist": "parcel build --public-url '/responsive-img-poc' --out-dir docs index.html"
   },
   "keywords": [],
   "author": "",
