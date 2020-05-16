@@ -10,3 +10,11 @@ This project uses parcel to serve and build the HTML bundle
 npm install
 npm start
 ```
+
+## Building
+
+Run the following command to build a dist copy
+
+```bash
+npm run dist
+```

@@ -5,7 +5,8 @@
   "main": "respnsive-img.js",
   "scripts": {
     "start": "parcel index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "parcel build --out-dir docs index.html"
   },
   "keywords": [],
   "author": "",
