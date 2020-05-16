@@ -6,12 +6,13 @@
   "scripts": {
     "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dist": "parcel build --public-url '/responsive-img-poc' --out-dir docs index.html"
+    "dist": "rimraf docs && parcel build --public-url '/responsive-img-poc' --out-dir docs index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2"
   }
 }
